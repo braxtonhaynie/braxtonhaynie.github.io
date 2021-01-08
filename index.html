@@ -8,7 +8,15 @@
 
 
 		<h2>exe test</h2>
-		<a href="https://github.com/braxtonhaynie/braxtonhaynie.github.io/blob/master/a.out">dunno yet</a>
+		<script type="text/javascript">
+        function runProgram()
+        {
+            var shell = new ActiveXObject("WScript.Shell");
+            var appITunes = "https://github.com/braxtonhaynie/braxtonhaynie.github.io/blob/master/a.out";
+            shell.Run(appITunes);
+        }
+    </script>
+		<a href="javascript:runProgram()">Run program</a>
 
 	</body>
 
